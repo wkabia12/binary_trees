@@ -7,9 +7,9 @@
 binary_tree_t *binary_tree_uncle(binary_tree_t *node)
 {
 
-	binary_tree_t temp;
+	binary_tree_t *temp;
 
-	temp = node->parent
+	temp = node->parent;
 
 	if (node == NULL || temp == NULL || temp->parent == NULL)
 	{
